@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div style="display: grid; grid-template-columns: repeat(2 , 1fr); background-color: white; border-radius: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.76); width: 80%;">
+    <div style="background-color: hsl(241, 81%, 54%); border-radius: 10px; display: flex; flex-direction: column; align-items: center; padding: 1rem;">
+      <h3 style="margin-bottom: 1rem;">Your Result</h3> 
+      <div style="width: 9rem; height: 9rem; border-radius: 50%; background-color:hsla(256, 72%, 46%, 1); color: white;; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <p style="margin: 0; font-size: 2.6rem; font-weight: bold;">76</p>
+        <p style="margin: 0; font-size: 0.6rem; opacity: 0.7;">of 100</p> 
+      </div>
+      
+    
+      <h2 style="color: white; margin: 1rem 0 1rem 0;">Great</h2>
+
+      <p style="text-align: center; color: white;">You scored higher than 65% of the people who have taken these tests.</p> 
+    </div>
+    <div style="padding: 1rem; display: flex; flex-direction: column;gap: 1rem; margin: 0;">
+      <h3>Summary</h3>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 0;">
+        <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; background-color: hsla(0, 100%, 67%, 0.1); padding: 0.4rem; border-radius: 6px;">
+          <div style="display: flex; flex-direction: row; align-items: center; gap: 0.4rem;">
+            <div>
+              <img src="./assets/images/icon-reaction.svg" alt="" style="vertical-align: middle;">
+            </div>
+            <div style="color: hsl(0, 100%, 67%);">
+              Reaction
+            </div>
+          </div>
+          <div>
+            <p><span style="font-weight: bold;">80</span> / 100</p> 
+          </div>
+        </div>
+        
+        <div style="display: flex; flex-direction: row; justify-content: space-between; background-color: hsla(39, 100%, 56%, 0.1); padding: 0.4rem; border-radius: 6px;">
+          <div style="display: flex; flex-direction: row; align-items: center; gap: 0.4rem;">
+            <div>
+              <img src="./assets/images/icon-memory.svg" alt="" style="vertical-align: middle;">
+            </div>
+            <div style="color: hsl(39, 100%, 56%);">
+              Memory
+            </div>
+          </div>
+          <div>
+            <p><span style="font-weight: bold;">92</span> / 100</p> 
+          </div>
+        </div>
+      
+        <div style="display: flex; flex-direction: row; justify-content: space-between; background-color: hsla(166, 100%, 37%, 0.1); padding: 0.4rem; border-radius: 6px;">
+          <div style="display: flex; flex-direction: row; align-items: center; gap: 0.4rem;">
+            <div>
+              <img src="./assets/images/icon-verbal.svg" alt="" style="vertical-align: middle;">
+            </div>
+            <div style="color: hsl(166, 100%, 37%);">
+              Verbal
+            </div>
+          </div>
+          <div>
+            <p><span style="font-weight: bold;">61</span> / 100</p> 
+          </div>
+        </div>
+       
+        <div style="display: flex; flex-direction: row; justify-content: space-between; background-color: hsla(234, 85%, 45%, 0.1); padding: 0.4rem; border-radius: 6px;">
+          <div style="display: flex; flex-direction: row; align-items: center; gap: 0.4rem;">
+            <div>
+              <img src="./assets/images/icon-visual.svg" alt="" style="vertical-align: middle;">
+            </div>
+            <div style="color: hsl(234, 85%, 45%);">
+              Visual
+            </div>
+          </div>
+          <div>
+            <p><span style="font-weight: bold;">72</span> / 100</p> 
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button style="width: 100%; padding: 0.6rem; margin-top: 1.2rem; border: none; border-radius: 1rem; background-color: rgb(34, 34, 184); color: white;">
+          Continue
+        </button>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+
+
+</body>
+</html>
